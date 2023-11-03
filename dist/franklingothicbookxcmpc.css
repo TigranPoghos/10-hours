@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'FranklinGothicBookXCmpC';
+	src: url('../fonts/franklingothicbookxcmpc.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/franklingothicbookxcmpc.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/franklingothicbookxcmpc.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/franklingothicbookxcmpc.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/franklingothicbookxcmpc.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/franklingothicbookxcmpc.svg#franklingothicbookxcmpc') format('svg'); /* Chrome < 4, Legacy iOS */
+}
