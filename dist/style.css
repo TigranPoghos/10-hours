@@ -792,6 +792,8 @@ body {
   }
   .header__middle-phone a {
     font-size: 24px;
+    display: flex;
+    align-items: center;
   }
   .header__middle-phone svg {
     height: 18px;
