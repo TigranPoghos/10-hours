@@ -1,23 +1,28 @@
 document.addEventListener("DOMContentLoaded", function(){ 
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4,
-    spaceBetween: 16,
     loop: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-})
+    breakpoints: {
+        375: {
+            slidesPerView:1,
+            spaceBetween:0,
+        },
 
-var swiper = new Swiper(".members__adap", {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true,
+        768: {
+            slidesPerView:2,
+            spaceBetween:16,
+        },
+
+        1024: {
+            slidesPerView:3,
+            spaceBetween:16,
+        },
+
+        1439: {
+            slidesPerView:4,
+            spaceBetween:16,
+        },
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -29,23 +34,18 @@ var swiper = new Swiper(".members__adap", {
 })
 
 var swiper = new Swiper(".mySwiper__2", {
-    slidesPerView: 2,
-    spaceBetween: 30,
     loop: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-})
+    breakpoints: {
+        375: {
+            slidesPerView:1,
+            spaceBetween:0,
+        },
 
-var swiper = new Swiper(".review__adap", {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true,
+        1024: {
+            slidesPerView:2,
+            spaceBetween:30,
+        },
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
