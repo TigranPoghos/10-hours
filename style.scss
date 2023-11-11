@@ -858,7 +858,7 @@ body {
 
 @media (min-width:375px) and (max-width:576px) {
     .container {
-        max-width: 375px;
+        max-width: 100%;
         padding: 0 16px;
     }
 
@@ -915,7 +915,7 @@ body {
     
         &__title {
             font-size: 42px;
-            max-width: 320px;
+            max-width: 100%;
         }
     
         &__gallery {
@@ -938,7 +938,7 @@ body {
             }
     
             & span {
-                max-width: 323px;
+                max-width: 100%;
             }
         }
     }
@@ -958,7 +958,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 343px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
     
@@ -969,7 +969,7 @@ body {
         }
     
         &__li {
-            max-width: 343px;
+            max-width: 100%;
     
             &-line {
                 width: 153px;
@@ -978,8 +978,7 @@ body {
     
         & iframe {
             position: static;
-            width: 343px;
-            height: 193px;
+            width: 100%;
             margin-bottom: 40px;
         }
     }
@@ -1002,7 +1001,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 343px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
     
@@ -1050,7 +1049,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 343px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
 
@@ -1060,7 +1059,7 @@ body {
     
         &__content {
             gap: 15px;
-            max-width: 303px;
+            max-width: 100%;
     
             &-title {
                 font-size: 18px;
@@ -1090,7 +1089,7 @@ body {
     
         &__subtitle {
             font-size: 18px;
-            max-width: 335px;
+            max-width: 100%;
             margin-bottom: 38px;
         }
         
@@ -1104,7 +1103,7 @@ body {
             }
     
             & input {
-                width: 311px;
+                width: 100%;
                 padding: 14px 0;
             }
         }
@@ -1138,7 +1137,7 @@ body {
 
 @media (min-width:576px) and (max-width:768px) {
     .container {
-        max-width: 576px;
+        max-width: 100%;
         padding: 0 18px;
     }
 
@@ -1195,7 +1194,7 @@ body {
     
         &__title {
             font-size: 48px;
-            max-width: 540px;
+            max-width: 100%;
         }
     
         &__gallery {
@@ -1218,7 +1217,7 @@ body {
             }
     
             & span {
-                max-width: 520px;
+                max-width: 100%;
                 font-size: 22px;
             }
         }
@@ -1239,7 +1238,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 540px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
     
@@ -1250,7 +1249,7 @@ body {
         }
     
         &__li {
-            max-width: 540px;
+            max-width: 100%;
     
             &-line {
                 width: 300px;
@@ -1260,7 +1259,6 @@ body {
         & iframe {
             position: static;
             width: 100%;
-            height: 300px;
             margin-bottom: 40px;
         }
     }
@@ -1283,7 +1281,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 540x;
+            max-width: 100%;
             margin-bottom: 24px;
         }
     
@@ -1331,7 +1329,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 540px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
 
@@ -1341,7 +1339,7 @@ body {
     
         &__content {
             gap: 15px;
-            max-width: 465px;
+            max-width: 100%;
     
             &-title {
                 font-size: 18px;
@@ -1385,7 +1383,7 @@ body {
             }
     
             & input {
-                width: 540px;
+                width: 100%;
                 padding: 14px 0;
             }
         }
@@ -1419,7 +1417,7 @@ body {
 
 @media (min-width:768px) and (max-width:1023px) {
     .container {
-        max-width: 768px;
+        max-width: 100%;
         padding: 0 34px;
     }
 
@@ -1510,7 +1508,7 @@ body {
     
         &__title {
             font-size: 48px;
-            max-width: 540px;
+            max-width: 100%;
         }
     
         &__gallery {
@@ -1533,7 +1531,7 @@ body {
             }
     
             & span {
-                max-width: 700px;
+                max-width: 100%;
                 font-size: 22px;
             }
         }
@@ -1596,7 +1594,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 540x;
+            max-width: 100%;
             margin-bottom: 24px;
         }
     
@@ -1644,7 +1642,7 @@ body {
         }
     
         &__subtitle {
-            max-width: 700px;
+            max-width: 100%;
             margin-bottom: 24px;
         }
 
@@ -1654,7 +1652,7 @@ body {
     
         &__content {
             gap: 15px;
-            max-width: 700px;
+            max-width: 100%;
     
             &-title {
                 font-size: 18px;

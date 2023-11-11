@@ -762,7 +762,7 @@ body {
 
 @media (min-width: 375px) and (max-width: 576px) {
   .container {
-    max-width: 375px;
+    max-width: 100%;
     padding: 0 16px;
   }
   .header {
@@ -807,7 +807,7 @@ body {
   }
   .mizantin__title {
     font-size: 42px;
-    max-width: 320px;
+    max-width: 100%;
   }
   .mizantin__gallery {
     display: none;
@@ -826,7 +826,7 @@ body {
     width: 2px;
   }
   .mizantin__subtitle span {
-    max-width: 323px;
+    max-width: 100%;
   }
   .information {
     background-image: url("../image/information-fon.jpg");
@@ -841,7 +841,7 @@ body {
     margin-bottom: 16px;
   }
   .information__subtitle {
-    max-width: 343px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .information__line {
@@ -850,15 +850,14 @@ body {
     margin-bottom: 24px;
   }
   .information__li {
-    max-width: 343px;
+    max-width: 100%;
   }
   .information__li-line {
     width: 153px;
   }
   .information iframe {
     position: static;
-    width: 343px;
-    height: 193px;
+    width: 100%;
     margin-bottom: 40px;
   }
   .members__row {
@@ -875,7 +874,7 @@ body {
     height: 376px;
   }
   .members__subtitle {
-    max-width: 343px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .members__info {
@@ -911,7 +910,7 @@ body {
     margin-bottom: 24px;
   }
   .review__subtitle {
-    max-width: 343px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .review__Swiper {
@@ -919,7 +918,7 @@ body {
   }
   .review__content {
     gap: 15px;
-    max-width: 303px;
+    max-width: 100%;
   }
   .review__content-title {
     font-size: 18px;
@@ -941,7 +940,7 @@ body {
   }
   .client__subtitle {
     font-size: 18px;
-    max-width: 335px;
+    max-width: 100%;
     margin-bottom: 38px;
   }
   .client__contact {
@@ -953,7 +952,7 @@ body {
     gap: 26px;
   }
   .client__contact input {
-    width: 311px;
+    width: 100%;
     padding: 14px 0;
   }
   .client__button {
@@ -979,7 +978,7 @@ body {
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .container {
-    max-width: 576px;
+    max-width: 100%;
     padding: 0 18px;
   }
   .header {
@@ -1024,7 +1023,7 @@ body {
   }
   .mizantin__title {
     font-size: 48px;
-    max-width: 540px;
+    max-width: 100%;
   }
   .mizantin__gallery {
     display: none;
@@ -1043,7 +1042,7 @@ body {
     width: 2px;
   }
   .mizantin__subtitle span {
-    max-width: 520px;
+    max-width: 100%;
     font-size: 22px;
   }
   .information {
@@ -1059,7 +1058,7 @@ body {
     margin-bottom: 16px;
   }
   .information__subtitle {
-    max-width: 540px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .information__line {
@@ -1068,7 +1067,7 @@ body {
     margin-bottom: 24px;
   }
   .information__li {
-    max-width: 540px;
+    max-width: 100%;
   }
   .information__li-line {
     width: 300px;
@@ -1076,7 +1075,6 @@ body {
   .information iframe {
     position: static;
     width: 100%;
-    height: 300px;
     margin-bottom: 40px;
   }
   .members__row {
@@ -1093,7 +1091,7 @@ body {
     height: auto;
   }
   .members__subtitle {
-    max-width: 540x;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .members__info {
@@ -1129,7 +1127,7 @@ body {
     margin-bottom: 24px;
   }
   .review__subtitle {
-    max-width: 540px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .review__Swiper {
@@ -1137,7 +1135,7 @@ body {
   }
   .review__content {
     gap: 15px;
-    max-width: 465px;
+    max-width: 100%;
   }
   .review__content-title {
     font-size: 18px;
@@ -1171,7 +1169,7 @@ body {
     gap: 26px;
   }
   .client__contact input {
-    width: 540px;
+    width: 100%;
     padding: 14px 0;
   }
   .client__button {
@@ -1197,7 +1195,7 @@ body {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
-    max-width: 768px;
+    max-width: 100%;
     padding: 0 34px;
   }
   .header {
@@ -1265,7 +1263,7 @@ body {
   }
   .mizantin__title {
     font-size: 48px;
-    max-width: 540px;
+    max-width: 100%;
   }
   .mizantin__gallery {
     display: none;
@@ -1284,7 +1282,7 @@ body {
     width: 10px;
   }
   .mizantin__subtitle span {
-    max-width: 700px;
+    max-width: 100%;
     font-size: 22px;
   }
   .information {
@@ -1332,7 +1330,7 @@ body {
     height: auto;
   }
   .members__subtitle {
-    max-width: 540x;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .members__info {
@@ -1368,7 +1366,7 @@ body {
     margin-bottom: 24px;
   }
   .review__subtitle {
-    max-width: 700px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   .review__Swiper {
@@ -1376,7 +1374,7 @@ body {
   }
   .review__content {
     gap: 15px;
-    max-width: 700px;
+    max-width: 100%;
   }
   .review__content-title {
     font-size: 18px;
